@@ -4,8 +4,6 @@
 
 MedScribe uses [Gemma 3n E2B](https://ai.google.dev/gemma) with WebGPU to transcribe clinical audio and generate structured SOAP notes, all locally in Chrome. No data ever leaves your device.
 
-![MedScribe Screenshot](https://raw.githubusercontent.com/prePhilip/MedScribe/main/screenshot.png)
-
 ## Features
 
 - 🎙 **Record or upload** clinical audio directly in Chrome
@@ -26,7 +24,7 @@ MedScribe uses [Gemma 3n E2B](https://ai.google.dev/gemma) with WebGPU to transc
 
 ## Quick Start
 
-1. Visit the [live demo](https://prephilip.github.io/MedScribe/) or clone this repo
+1. Visit the [live demo](https://johnyquest7.github.io/MedScribe/) or clone this repo
 2. Open the **☰ sidebar** and click **Initialize Model** (the model URL is pre-filled)
 3. Wait for the model to load (~2.9 GB download)
 4. **Record** or upload audio
