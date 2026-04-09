@@ -212,7 +212,8 @@ function saveUserPrefs() {
 
 function restoreUserPrefs() {
   const urlParam = new URL(window.location.href).searchParams.get('model');
-  ui.modelUrl.value = urlParam || localStorage.getItem(STORAGE_KEY_MODEL_URL) || '';
+  const defaultModelUrl = 'https://huggingface.co/Johnyquest7/gemma-3n-E2B-it-int4-Web.litertlm/resolve/main/gemma-3n-E2B-it-int4-Web.litertlm';
+  ui.modelUrl.value = urlParam || localStorage.getItem(STORAGE_KEY_MODEL_URL) || defaultModelUrl;
   ui.contextNotes.value = localStorage.getItem(STORAGE_KEY_CONTEXT) || '';
 }
 
