@@ -22,13 +22,13 @@ MedScribe uses [Gemma 3n E2B](https://ai.google.dev/gemma) with WebGPU to transc
 
 - **Chrome 128+** with WebGPU enabled
 - **8 GB+ GPU VRAM** recommended
-- The `gemma-3n-E2B-it-int4-Web.litertlm` model file (~2.9 GB)
+- The model is [hosted on Hugging Face](https://huggingface.co/Johnyquest7/gemma-3n-E2B-it-int4-Web.litertlm) and pre-loaded in the app (~2.9 GB, downloads to GPU memory)
 
 ## Quick Start
 
 1. Visit the [live demo](https://prephilip.github.io/MedScribe/) or clone this repo
-2. Click the **?** help button for onboarding instructions
-3. Open the **☰ sidebar** and load the model (URL or local file)
+2. Open the **☰ sidebar** and click **Initialize Model** (the model URL is pre-filled)
+3. Wait for the model to load (~2.9 GB download)
 4. **Record** or upload audio
 5. Click **Generate Transcript & SOAP Note**
 
