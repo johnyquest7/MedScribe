@@ -43,8 +43,8 @@
       <div class="sidebar-heading">Model</div>
 
       <label for="modelUrl">Model URL</label>
-      <input id="modelUrl" type="url" placeholder="https://…/gemma-3n-E2B-it-int4-Web.litertlm" autocomplete="off">
-      <p class="help-text">Paste a publicly accessible URL for the model file.</p>
+      <input id="modelUrl" type="url" value="https://huggingface.co/Johnyquest7/gemma-3n-E2B-it-int4-Web.litertlm/resolve/main/gemma-3n-E2B-it-int4-Web.litertlm" autocomplete="off">
+      <p class="help-text">Pre-filled with the hosted model. You can also paste a different URL or load from disk.</p>
 
       <label for="modelFile">Or choose from disk</label>
       <input id="modelFile" type="file" accept=".litertlm,application/octet-stream">
@@ -228,25 +228,21 @@
         <div class="help-step">
           <div class="help-step-number">1</div>
           <div>
-            <h4>Download the Model</h4>
-            <p>Download the <strong>Gemma 3n E2B</strong> model file (<code>.litertlm</code>) to your computer. You can get it from:</p>
+            <h4>Load the Model</h4>
+            <p>The model URL is <strong>pre-filled</strong> with the hosted Gemma 3n E2B model. Simply open the <strong>sidebar menu</strong> (☰) and click <strong>Initialize Model</strong>.</p>
+            <p>The model (~2.9 GB) will download directly into your browser’s GPU memory. A progress bar will show the loading status.</p>
+            <p style="margin-top:6px">Alternatively, you can download the model to your computer and load it from disk for faster subsequent use:</p>
             <ul>
-              <li>Hugging Face — search for <code>gemma-3n-E2B-it-int4-Web.litertlm</code></li>
-              <li>Google AI Studio model downloads</li>
-              <li>Any public CDN or object storage URL</li>
+              <li><a href="https://huggingface.co/Johnyquest7/gemma-3n-E2B-it-int4-Web.litertlm" target="_blank" style="color:var(--accent)">Download from Hugging Face</a></li>
+              <li>Then use “Or choose from disk” in the sidebar</li>
             </ul>
           </div>
         </div>
         <div class="help-step">
           <div class="help-step-number">2</div>
           <div>
-            <h4>Load the Model</h4>
-            <p>Open the <strong>sidebar menu</strong> (☰) and either:</p>
-            <ul>
-              <li><strong>Paste a URL</strong> to the model file, or</li>
-              <li><strong>Browse your local disk</strong> and select the <code>.litertlm</code> file</li>
-            </ul>
-            <p>Then click <strong>Initialize Model</strong>. A progress bar will show while the model downloads and loads into GPU memory.</p>
+            <h4>Wait for “Ready”</h4>
+            <p>Once the model loads, the status badge will show <strong>Ready</strong> and you’ll get a confirmation toast. The app is now fully operational.</p>
           </div>
         </div>
         <div class="help-step">
