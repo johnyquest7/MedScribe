@@ -51,12 +51,27 @@ This app is designed to be hosted as a GitHub Page. The included `coi-servicewor
 - WebGPU for GPU-accelerated model execution
 - Web Audio API for recording and waveform visualization
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-⚠️ **Research use only.** Review all output before clinical use. No LLM note generator should be trusted without human verification.
-This application is experimental software intended for research and development purposes only. It is not intended for production clinical use.
-This software is not intended to replace professional medical judgment. It is provided for informational and educational purposes only. This software has not been cleared or approved by the FDA, CE, or any other medical device or software licensing agency. This application does not claim to be HIPAA compliant. Do not enter or process Protected Health Information (PHI). This software is provided "as is" without warranty of any kind, express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose.
+**This application is experimental software intended for research and development purposes only. It is not intended for production clinical use.**
 
-## License
+- This software is **not intended to replace professional medical judgment**. It is provided for informational and educational purposes only.
+- All AI-generated transcriptions and SOAP notes **must be reviewed, verified, and approved by a licensed healthcare professional** before any clinical use.
+- This software has **not been cleared or approved** by the FDA, CE, or any other medical device or software licensing agency.
+- No LLM-based note generator should be trusted without human verification.
 
-Apache 2.0
+## 🔒 Privacy & Data Handling
+
+MedScribe is designed with privacy in mind — **all audio processing, transcription, and SOAP note generation occurs entirely on your local device**. No data is transmitted to any external server or cloud service.
+
+However, please note:
+
+- **This software does not claim HIPAA compliance.** HIPAA compliance encompasses administrative, physical, and technical safeguards that extend far beyond the software itself and are the responsibility of the deploying organization.
+- **Do not use this software to process Protected Health Information (PHI)** in a production clinical setting without first ensuring your deployment environment meets all applicable regulatory requirements (HIPAA, HITECH, state privacy laws, etc.).
+- The developers of MedScribe are not responsible for how this software is deployed or used. Organizations deploying this tool in a clinical context are solely responsible for ensuring compliance with all applicable healthcare regulations.
+
+## 📄 License
+
+Licensed under [Apache 2.0](LICENSE).
+
+This software is provided **"AS IS"** without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from the use of this software.
