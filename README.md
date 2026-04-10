@@ -54,7 +54,9 @@ This app is designed to be hosted as a GitHub Page. The included `coi-servicewor
 ## Disclaimer
 
 ⚠️ **Research use only.** Review all output before clinical use. No LLM note generator should be trusted without human verification.
+This application is experimental software intended for research and development purposes only. It is not intended for production clinical use.
+This software is not intended to replace professional medical judgment. It is provided for informational and educational purposes only. This software has not been cleared or approved by the FDA, CE, or any other medical device or software licensing agency. This application does not claim to be HIPAA compliant. Do not enter or process Protected Health Information (PHI). This software is provided "as is" without warranty of any kind, express or implied, including but not limited to the warranties of merchantability or fitness for a particular purpose.
 
 ## License
 
-MIT
+Apache 2.0
