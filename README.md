@@ -1,4 +1,4 @@
-# MedScribe
+# MedScribe - Technical demo of what is possible on device. 
 
 **On-device AI medical transcription & SOAP note generation — runs entirely in your browser.**
 
